@@ -1,0 +1,28 @@
+.container {
+  padding: 16px;
+}
+
+.balanceCard {
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.income, .expenses {
+  display: flex;
+  flex-direction: column;
+}
